@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68904F1029F0827E00893A9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68904F0F29F0827E00893A9A /* AppDelegate.swift */; };
+		68904F1229F0827E00893A9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68904F1129F0827E00893A9A /* SceneDelegate.swift */; };
+		68904F1429F0827E00893A9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68904F1329F0827E00893A9A /* ViewController.swift */; };
+		68904F1729F0827E00893A9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68904F1529F0827E00893A9A /* Main.storyboard */; };
+		68904F1929F0828100893A9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68904F1829F0828100893A9A /* Assets.xcassets */; };
+		68904F1C29F0828100893A9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68904F1A29F0828100893A9A /* LaunchScreen.storyboard */; };
+		68904F2729F0828200893A9A /* AstroEaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68904F2629F0828200893A9A /* AstroEaseTests.swift */; };
+		68904F3129F0828200893A9A /* AstroEaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68904F3029F0828200893A9A /* AstroEaseUITests.swift */; };
+		68904F3329F0828200893A9A /* AstroEaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68904F3229F0828200893A9A /* AstroEaseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68904F2329F0828200893A9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68904F0429F0827E00893A9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68904F0B29F0827E00893A9A;
+			remoteInfo = AstroEase;
+		};
+		68904F2D29F0828200893A9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68904F0429F0827E00893A9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68904F0B29F0827E00893A9A;
+			remoteInfo = AstroEase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68904F0C29F0827E00893A9A /* AstroEase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstroEase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68904F0F29F0827E00893A9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68904F1129F0827E00893A9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		68904F1329F0827E00893A9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68904F1629F0827E00893A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68904F1829F0828100893A9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68904F1B29F0828100893A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68904F1D29F0828100893A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68904F2229F0828200893A9A /* AstroEaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroEaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68904F2629F0828200893A9A /* AstroEaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroEaseTests.swift; sourceTree = "<group>"; };
+		68904F2C29F0828200893A9A /* AstroEaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroEaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68904F3029F0828200893A9A /* AstroEaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroEaseUITests.swift; sourceTree = "<group>"; };
+		68904F3229F0828200893A9A /* AstroEaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroEaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68904F0929F0827E00893A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68904F1F29F0828200893A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68904F2929F0828200893A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68904F0329F0827E00893A9A = {
+			isa = PBXGroup;
+			children = (
+				68904F0E29F0827E00893A9A /* AstroEase */,
+				68904F2529F0828200893A9A /* AstroEaseTests */,
+				68904F2F29F0828200893A9A /* AstroEaseUITests */,
+				68904F0D29F0827E00893A9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68904F0D29F0827E00893A9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68904F0C29F0827E00893A9A /* AstroEase.app */,
+				68904F2229F0828200893A9A /* AstroEaseTests.xctest */,
+				68904F2C29F0828200893A9A /* AstroEaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68904F0E29F0827E00893A9A /* AstroEase */ = {
+			isa = PBXGroup;
+			children = (
+				68904F0F29F0827E00893A9A /* AppDelegate.swift */,
+				68904F1129F0827E00893A9A /* SceneDelegate.swift */,
+				68904F1329F0827E00893A9A /* ViewController.swift */,
+				68904F1529F0827E00893A9A /* Main.storyboard */,
+				68904F1829F0828100893A9A /* Assets.xcassets */,
+				68904F1A29F0828100893A9A /* LaunchScreen.storyboard */,
+				68904F1D29F0828100893A9A /* Info.plist */,
+			);
+			path = AstroEase;
+			sourceTree = "<group>";
+		};
+		68904F2529F0828200893A9A /* AstroEaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				68904F2629F0828200893A9A /* AstroEaseTests.swift */,
+			);
+			path = AstroEaseTests;
+			sourceTree = "<group>";
+		};
+		68904F2F29F0828200893A9A /* AstroEaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68904F3029F0828200893A9A /* AstroEaseUITests.swift */,
+				68904F3229F0828200893A9A /* AstroEaseUITestsLaunchTests.swift */,
+			);
+			path = AstroEaseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68904F0B29F0827E00893A9A /* AstroEase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68904F3629F0828200893A9A /* Build configuration list for PBXNativeTarget "AstroEase" */;
+			buildPhases = (
+				68904F0829F0827E00893A9A /* Sources */,
+				68904F0929F0827E00893A9A /* Frameworks */,
+				68904F0A29F0827E00893A9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AstroEase;
+			productName = AstroEase;
+			productReference = 68904F0C29F0827E00893A9A /* AstroEase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68904F2129F0828200893A9A /* AstroEaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68904F3929F0828200893A9A /* Build configuration list for PBXNativeTarget "AstroEaseTests" */;
+			buildPhases = (
+				68904F1E29F0828200893A9A /* Sources */,
+				68904F1F29F0828200893A9A /* Frameworks */,
+				68904F2029F0828200893A9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68904F2429F0828200893A9A /* PBXTargetDependency */,
+			);
+			name = AstroEaseTests;
+			productName = AstroEaseTests;
+			productReference = 68904F2229F0828200893A9A /* AstroEaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68904F2B29F0828200893A9A /* AstroEaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68904F3C29F0828200893A9A /* Build configuration list for PBXNativeTarget "AstroEaseUITests" */;
+			buildPhases = (
+				68904F2829F0828200893A9A /* Sources */,
+				68904F2929F0828200893A9A /* Frameworks */,
+				68904F2A29F0828200893A9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68904F2E29F0828200893A9A /* PBXTargetDependency */,
+			);
+			name = AstroEaseUITests;
+			productName = AstroEaseUITests;
+			productReference = 68904F2C29F0828200893A9A /* AstroEaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68904F0429F0827E00893A9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					68904F0B29F0827E00893A9A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					68904F2129F0828200893A9A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 68904F0B29F0827E00893A9A;
+					};
+					68904F2B29F0828200893A9A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 68904F0B29F0827E00893A9A;
+					};
+				};
+			};
+			buildConfigurationList = 68904F0729F0827E00893A9A /* Build configuration list for PBXProject "AstroEase" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68904F0329F0827E00893A9A;
+			productRefGroup = 68904F0D29F0827E00893A9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68904F0B29F0827E00893A9A /* AstroEase */,
+				68904F2129F0828200893A9A /* AstroEaseTests */,
+				68904F2B29F0828200893A9A /* AstroEaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68904F0A29F0827E00893A9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68904F1C29F0828100893A9A /* LaunchScreen.storyboard in Resources */,
+				68904F1929F0828100893A9A /* Assets.xcassets in Resources */,
+				68904F1729F0827E00893A9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68904F2029F0828200893A9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68904F2A29F0828200893A9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68904F0829F0827E00893A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68904F1429F0827E00893A9A /* ViewController.swift in Sources */,
+				68904F1029F0827E00893A9A /* AppDelegate.swift in Sources */,
+				68904F1229F0827E00893A9A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68904F1E29F0828200893A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68904F2729F0828200893A9A /* AstroEaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68904F2829F0828200893A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68904F3329F0828200893A9A /* AstroEaseUITestsLaunchTests.swift in Sources */,
+				68904F3129F0828200893A9A /* AstroEaseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68904F2429F0828200893A9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68904F0B29F0827E00893A9A /* AstroEase */;
+			targetProxy = 68904F2329F0828200893A9A /* PBXContainerItemProxy */;
+		};
+		68904F2E29F0828200893A9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68904F0B29F0827E00893A9A /* AstroEase */;
+			targetProxy = 68904F2D29F0828200893A9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68904F1529F0827E00893A9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68904F1629F0827E00893A9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68904F1A29F0828100893A9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68904F1B29F0828100893A9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68904F3429F0828200893A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68904F3529F0828200893A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68904F3729F0828200893A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AstroEase/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = easyAstronomy.AstroEase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68904F3829F0828200893A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AstroEase/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = easyAstronomy.AstroEase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		68904F3A29F0828200893A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = easyAstronomy.AstroEaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstroEase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AstroEase";
+			};
+			name = Debug;
+		};
+		68904F3B29F0828200893A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = easyAstronomy.AstroEaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstroEase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AstroEase";
+			};
+			name = Release;
+		};
+		68904F3D29F0828200893A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = easyAstronomy.AstroEaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AstroEase;
+			};
+			name = Debug;
+		};
+		68904F3E29F0828200893A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = easyAstronomy.AstroEaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AstroEase;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68904F0729F0827E00893A9A /* Build configuration list for PBXProject "AstroEase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68904F3429F0828200893A9A /* Debug */,
+				68904F3529F0828200893A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68904F3629F0828200893A9A /* Build configuration list for PBXNativeTarget "AstroEase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68904F3729F0828200893A9A /* Debug */,
+				68904F3829F0828200893A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68904F3929F0828200893A9A /* Build configuration list for PBXNativeTarget "AstroEaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68904F3A29F0828200893A9A /* Debug */,
+				68904F3B29F0828200893A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68904F3C29F0828200893A9A /* Build configuration list for PBXNativeTarget "AstroEaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68904F3D29F0828200893A9A /* Debug */,
+				68904F3E29F0828200893A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68904F0429F0827E00893A9A /* Project object */;
+}
